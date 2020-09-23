@@ -1,0 +1,39 @@
+{
+  "name": "tnood-token-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon --exec sucrase-node ./index.ts"
+  },
+  "author": "MrSev7en#1968",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "sucrase": "^3.15.0"
+  },
+  "dependencies": {
+    "apify": "^0.21.0",
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "https": "^1.0.0",
+    "node-random-name": "^1.0.1",
+    "puppeteer": "^5.0.0",
+    "puppeteer-extra": "^3.1.12",
+    "puppeteer-extra-plugin-recaptcha": "^3.1.13",
+    "puppeteer-extra-plugin-stealth": "^2.4.13",
+    "puppeteer-page-proxy": "^1.2.7",
+    "random-useragent": "^0.3.1",
+    "readline": "^1.3.0",
+    "rimraf": "^3.0.2",
+    "unique-names-generator": "^4.3.0"
+  }
+}
